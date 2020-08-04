@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:Arial, sans-serif;
+    line-height:1.4;
+    color: red;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom:2rem;
+}
+.btn {
+    font-size: 30px;
+    color: violet;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid violet;
+    border-radius:1px;
+    font-weight:bold;
+    text-decoration: none;
+}
+.btn:hover {
+      background:violet;
+      color:wheat;
+}
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+.text-primary {
+    color:yellowgreen;
+    font-size: 30px;
+}
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    background:black;
+    color:#fff;
+    position: sticky;
+    padding:1.5rem 8rem;
+    top:0;
+    z-index:1;
+    border-bottom: 3px solid #3693ff;
+}
+#navbar ul {
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+navbar h2 a{
+    color:#fff;
+    text-decoration:none;
+}
+#navbar li a {
+    text-decoration: none;
+    color:#fff;
+    padding:1rem;
+    border-radius:0px;
+    font-size:1.3rem;
+    margin:0 0.5rem;
+}
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+#showcase {
+background: url(file:///home/moringa/Desktop/images/photo-1561811358-21aef14f0551.jpeg) no-repeat center center/cover;
+height:91.7vh;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align :center;
+    align-items :center;
+    justify-content :center;
+    position :absolute;
+    top :81px;
+    left:0;
+    bottom:0;
+    right:0;
+}
+h2 {
+    text-align :block;
+    font-size :3rem;
+    margin :3rem;
+}
+h3{
+    font-size :4rem;
+    text-align:block;
+}
+#img {
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius:40%;
+    margin-top: 60px;
+}
+#text{
+    text-align:justify;
+}
+table{
+    padding:10px;
+    border:1px solid black;
+}
+tr{
+    padding:10px;
+    border:1px solid black;
+}
+td{
+    padding:5px;
+    border:1px solid black
+}
+h4{
+    text-align:block;
+    font-size:5rem;
+}
